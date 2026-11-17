@@ -1,0 +1,14 @@
+{
+  "name": "healthtech-listing-cutouts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node src/run_listing.ts",
+    "test": "node src/healthtech_listing.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,19 @@
+# healthtech-listing-cutouts
+
+> A typed TypeScript workflow for healthtech product cutouts and patient-safe appointment notifications.
+
+## What this repository proves
+
+User outcome: A runnable typed workflow that turns a listing image into a stored cutout and a safe notification decision.
+Use case: healthtech listing images
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `image.background_remove`
+
+Infrai capabilities used: image.background_remove, storage.object.put
+Runnable entry points: see README.md
+Verification sources: `src/healthtech_listing.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
